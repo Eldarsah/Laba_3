@@ -24,12 +24,12 @@ int main()
     Programmer c;
 
     cout << "0 = exit" << endl;
-    cout << "Ýêçåìïëÿð çàêàç÷èêà 1" << endl;
-    cout << "Ýêçåìïëÿð ðóêîâîäèòåëÿ 2" << endl;
-    cout << "Ýêçåìïëÿð ïðîãðàììèñòà 3" << endl;
-    cout << "Êîïèðîâàíèå çàêàç÷èêà 4" << endl;
-    cout << "Êîïèðîâàíèå ðóêîâîäèòåëÿ 5" << endl;
-    cout << "Êîïèðîâàíèå ïðîãðàììèñòà 6" << endl;
+    cout << "Ð­ÐºÐ·ÐµÐ¼Ð¿Ð»ÑÑ€ Ð·Ð°ÐºÐ°Ð·Ñ‡Ð¸ÐºÐ° 1" << endl;
+    cout << "Ð­ÐºÐ·ÐµÐ¼Ð¿Ð»ÑÑ€ Ñ€ÑƒÐºÐ¾Ð²Ð¾Ð´Ð¸Ñ‚ÐµÐ»Ñ 2" << endl;
+    cout << "Ð­ÐºÐ·ÐµÐ¼Ð¿Ð»ÑÑ€ Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ð¸ÑÑ‚Ð° 3" << endl;
+    cout << "ÐšÐ¾Ð¿Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ Ð·Ð°ÐºÐ°Ð·Ñ‡Ð¸ÐºÐ° 4" << endl;
+    cout << "ÐšÐ¾Ð¿Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ Ñ€ÑƒÐºÐ¾Ð²Ð¾Ð´Ð¸Ñ‚ÐµÐ»Ñ 5" << endl;
+    cout << "ÐšÐ¾Ð¿Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ð¸ÑÑ‚Ð° 6" << endl;
     short k;
     while(true)
     {
@@ -39,19 +39,19 @@ int main()
             {
             case 1:
                 {
-                    cout << "Ââåäèòå name: ";
+                    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ name: ";
                     cin >> name;
                     a.setName(name);
-                    cout << "Ââåäèòå surname: ";
+                    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ surname: ";
                     cin >> surname;
                     a.setSurname(surname);
-                    cout << "Ââåäèòå year: ";
+                    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ year: ";
                     cin >> year;
                     a.setYear(year);
-                    cout << "Ââåäèòå Company: ";
+                    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Company: ";
                     cin >> Company;
                     a.setCompany(Company);
-                    cout << "Ââåäèòå Projekt: ";
+                    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Projekt: ";
                     cin >> Projekt;
                     a.setProjekt(Projekt);
                     cout << "\n";
@@ -60,19 +60,19 @@ int main()
                 }
             case 2:
                 {
-                    cout << "Ââåäèòå name: ";
+                    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ name: ";
                     cin >> name;
                     b.setName(name);
-                    cout << "Ââåäèòå surname: ";
+                    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ surname: ";
                     cin >> surname;
                     b.setSurname(surname);
-                    cout << "Ââåäèòå year: ";
+                    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ year: ";
                     cin >> year;
                     b.setYear(year);
-                    cout << "Ââåäèòå Company: ";
+                    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Company: ";
                     cin >> Company;
                     b.setCompany(Company);
-                    cout << "Ââåäèòå Kol: ";
+                    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Kol: ";
                     cin >> Kol;
                     b.setKol(Kol);
                     cout << "\n";
@@ -81,19 +81,19 @@ int main()
                 }
             case 3:
                 {
-                    cout << "Ââåäèòå name: ";
+                    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ name: ";
                     cin >> name;
                     c.setName(name);
-                    cout << "Ââåäèòå surname: ";
+                    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ surname: ";
                     cin >> surname;
                     c.setSurname(surname);
-                    cout << "Ââåäèòå year: ";
+                    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ year: ";
                     cin >> year;
                     c.setYear(year);
-                    cout << "Ââåäèòå Company: ";
+                    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Company: ";
                     cin >> Company;
                     c.setCompany(Company);
-                    cout << "Ââåäèòå ProjektProg: ";
+                    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ProjektProg: ";
                     cin >> ProjektProg;
                     c.setProjektProg(ProjektProg);
                     cout << "\n";
